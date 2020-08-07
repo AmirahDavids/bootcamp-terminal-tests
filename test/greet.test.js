@@ -12,4 +12,7 @@ describe("The greet function", function () {
     it("should greet Mujahid correctly", function () {
         assert.equal("Hello, Mujahid", greet("Mujahid"))
     });
+    it("should greet Sandra correctly", function () {
+        assert.equal("Hello, Sandra", greet("Sandra"))
+    });
 });
